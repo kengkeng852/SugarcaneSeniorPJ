@@ -1,1 +1,1 @@
-gcloud run deploy sugarcane-predict-api --source "C:\Users\kongp\Downloads\SugarcaneSeniorPJ\api" --region asia-southeast1 --allow-unauthenticated --platform managed
+gcloud run deploy sugarcane-predict-api --source "C:\Users\kongp\Downloads\SugarcaneSeniorPJ\api" --region asia-southeast1 --allow-unauthenticated --platform managed --memory 1Gi
