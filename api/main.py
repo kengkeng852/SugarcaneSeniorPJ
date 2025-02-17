@@ -18,8 +18,8 @@ LINE_CHANNEL_ACCESS_TOKEN = "/4XBNehql4cunpj5crTaGmihVODV6IthLfxnljCzuTcpyaZwh+T
 LINE_REPLY_API = "https://api.line.me/v2/bot/message/reply"
 
 # Model and Class Labels
-MODEL_PATH = "./best_model8.keras"
-CLASS_LABELS = ['Dried Leaves', 'Healthy Leaves', 'RedRot', 'Rust', 'smut']
+MODEL_PATH = "./best_model9.keras"
+CLASS_LABELS = ['Banded Chlorosis', 'Brown Spot', 'BrownRust', 'Dried Leaves', 'Grassy shoot', 'Healthy Leaves', 'Pokkah Boeng', 'RedRot', 'Sett Rot', 'Viral Disease', 'Yellow Leaf', 'smut']
 
 try:
     model = load_model(MODEL_PATH, compile=False)
